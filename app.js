@@ -9,7 +9,7 @@ app.set('view engine', 'pug');
 
 
 //view routes from routes.js
-app.use('/hello', routes);
+app.use('/', routes);
 
 
 
