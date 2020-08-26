@@ -8,6 +8,8 @@ app.engine('pug', require('pug').__express)
 app.set('view engine', 'pug');
 
 
+app.use( '/static', express.static('public') );
+
 //view routes from routes.js
 app.use('/', routes);
 
