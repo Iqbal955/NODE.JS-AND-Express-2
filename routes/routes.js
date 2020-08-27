@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express.Router();
 const data = require('../data.json');
-const projects = data.projects; //3 need to use projects in pug
+const { projects } = data; //3 need to use projects in pug
 
 
 
