@@ -48,7 +48,7 @@ a:hover{
 
 .image{
   display: inline-block;
-  max-width: 100%;
+  max-width: 30%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;

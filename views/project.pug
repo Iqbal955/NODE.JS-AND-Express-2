@@ -1,4 +1,4 @@
-extends layout.pug
+extends layout
 
 block content 
   nav.grid-container.portfolio-breadcrumb
@@ -18,7 +18,7 @@ block content
         h6 Technologies
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
-        each val in projects
+        each val in tech
           h3
             li= val
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.

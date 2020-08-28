@@ -14,11 +14,11 @@ app.use( '/static', express.static('public') );
 app.use('/', routes);
 
 
-/*
+
 
 app.use((req, res, next) => {
 
-    console.log('404 error handler');
+    console.log('404 error handler !');
 
     res.status(404).render('not-found.pug')
 
@@ -47,7 +47,7 @@ else {
 
 });
 
-*/
+
 
 app.listen(3000, () => {
     console.log("Bi Boooob bap connection is there")

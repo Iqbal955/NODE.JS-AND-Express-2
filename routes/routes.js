@@ -21,9 +21,11 @@ res.render('about.pug');
 
 
 routes.get('/:id', (req, res, next) => {
+
+
     
     if (projects[req.params.id]) {
-    res.render('project.pug', {projects}, {
+    res.render('project.pug',  {
 
             description: projects[req.params.id].description,
             project_name: projects[req.params.id].project_name,
@@ -33,10 +35,20 @@ routes.get('/:id', (req, res, next) => {
             tech: projects[req.params.id].technologies
 
         });
+
+        
     }
 
-    next();
     
+    else {
+
+        const err = new Error();
+        err.status = 400;
+        err.message = "This ID does not exist"
+        next(err);
+    }
+
+
 
 })
 
