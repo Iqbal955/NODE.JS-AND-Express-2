@@ -20,19 +20,24 @@ res.render('about.pug');
 
 
 
-routes.get('/:id', (req, res, next) => {
+routes.get('/projects/:id', (req, res, next) => {
 
+
+      const projectID = req.params.id;
+  const project = projects.find( ({ id }) => id === +projectID );
 
     
-    if (projects[req.params.id]) {
+    if (project) {
     res.render('project.pug',  {
 
-            description: projects[req.params.id].description,
-            project_name: projects[req.params.id].project_name,
-            github: projects[req.params.id].github_link,
-            livelink: projects[req.params.id].live_link,
-            images: projects[req.params.id].image_urls,
-            tech: projects[req.params.id].technologies
+        
+
+            description: project.description,
+            project_name: project.project_name,
+            github: project.github_link,
+            livelink: project.live_link,
+            images: project.image_urls,
+            tech: project.technologies
 
         });
 
