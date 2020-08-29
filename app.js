@@ -47,10 +47,10 @@ else {
 
 });
 
+var port = process.env.PORT || 3000;
 
-
-app.listen(3000, () => {
-    console.log("Bi Boooob bap connection is there")
+app.listen(port, () => {
+    console.log("running on: " + port)
 });
 
 
