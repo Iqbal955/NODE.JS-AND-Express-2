@@ -13,11 +13,11 @@
         },
         {
             "id": 2,
-            "project_name": "Project 2",
-            "description": "Filtering students",
+            "project_name": "Filtering List",
+            "description": "The project is that a list of people is given. You are given a list, and are to add pagnitation to that particular list. ",
             "technologies": [ "JavaScript, HTML" ],
-            "live_link": "https://github.com/Iqbal955/p2",
-            "github_link": "https://iqbal955.github.io/p2/",
+            "live_link": "https://iqbal955.github.io/p2",
+            "github_link": "https://github.com/Iqbal955/p2",
             "image_urls": [
                 "https://i.imgur.com/adZBSxK.png",
                 "https://i.imgur.com/5XI7W2E.png",
@@ -27,10 +27,10 @@
         {
             "id": 3,
             "project_name": "Interactive Form",
-            "description": "Online checkout",
+            "description": "The interactive form really showcases the possibilities when manipulating the DOM. The project includes key validators, regex valditors, and much more.",
             "technologies": [ "JavaScript, HTML, CSS" ],
-            "live_link": "https://github.com/Iqbal955/p3",
-            "github_link": "https://iqbal955.github.io/p3/",
+            "live_link": "https://iqbal955.github.io/p3/",
+            "github_link": "https://github.com/Iqbal955/p3",
             "image_urls": [
                 "https://i.imgur.com/Y5JeZ88.png",
                 "https://i.imgur.com/OduALr4.png",
@@ -40,11 +40,11 @@
         },
         {
             "id": 4,
-            "project_name": "Project 4",
-            "description": "OOB Game",
+            "project_name": "Guess the Phrase!",
+            "description": "This is an interesting an really fun project. The purpose of the project is to guess a phrase. You have 5 lives!",
             "technologies": [ "OOB JavaScript", "CSS", "HTML" ],
-            "live_link": "https://github.com/Iqbal955/p4",
-            "github_link": "https://iqbal955.github.io/p4/",
+            "live_link": "https://iqbal955.github.io/p4/",
+            "github_link": "https://github.com/Iqbal955/p4",
             "image_urls": [
                 "https://i.imgur.com/vLcD2Z2.png",
                 "https://i.imgur.com/7FeOETq.png",

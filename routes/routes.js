@@ -48,7 +48,7 @@ routes.get('/projects/:id', (req, res, next) => {
     else {
 
         const err = new Error();
-        err.status = 400;
+        err.status = 404;
         err.message = "This ID does not exist"
         next(err);
     }

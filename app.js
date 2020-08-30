@@ -20,7 +20,10 @@ app.use((req, res, next) => {
 
     console.log('404 error handler !');
 
-    res.status(404).render('not-found.pug')
+    const err = new Error();
+    err.status = 404;
+    err.message = "This page doesn't exist"
+    res.status(404).render('not-found.pug', { err })
 
 
 });
@@ -37,6 +40,9 @@ if(err) {
 if (err.status === 404) {
 
     res.status(404).render('not-found.pug', { err });
+
+    
+ 
 
 }
 
