@@ -21,9 +21,9 @@ app.use((req, res, next) => {
     console.log('404 error handler !');
 
     const err = new Error();
-    err.status = 404;
+    err.status = 500;
     err.message = "This page doesn't exist"
-    res.status(404).render('not-found.pug', { err })
+    res.status(500).render('error.pug', { err })
 
 
 });
