@@ -50,6 +50,22 @@
                 "https://i.imgur.com/7FeOETq.png",
                 "https://i.imgur.com/rbVR7qG.png"
             ]
+        },
+
+        {
+            "id": 5,
+            "project_name": "Public API request",
+            "description": "Fetching data from a public API and then modeling each modals based on the data. Whenever refreshing the page, random data is generated",
+            "technologies": [ "JavaScript", "API", "HTML", "CSS" ],
+            "live_link": "https://iqbal955.github.io/public_api_request-v1/",
+            "github_link": "https://github.com/Iqbal955/public_api_request-v1",
+            "image_urls": [
+                "https://i.imgur.com/Yw6c5lN.png",
+                "https://i.imgur.com/OJHrXfQ.png",
+                "https://i.imgur.com/SoK83R1.png",
+                "https://i.imgur.com/u3PGm7S.png"
+            ]
+
         }
     ]
 
