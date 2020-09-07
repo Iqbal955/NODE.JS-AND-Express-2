@@ -56,7 +56,7 @@ else {
 var port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    console.log("running on: " + port)
+    console.log("works!")
 });
 
 //
